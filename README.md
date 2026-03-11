@@ -3,26 +3,23 @@
 ## Backend (Laravel)
 
 ### Install
+- cd pokedex-api
+- composer install
+- php artisan serve
 
-cd pokedex-api
-composer install
-php artisan serve
-
-API Endpoint
-
+- API Endpoint :
 GET /api/pokemons?page=1&limit=20
 
-Example Response
-
+- Example Response
 [
  { name, image, types, height, weight }
 ]
 
 
 ## Frontend (Next.js)
-cd pokedex-frontend
-npm install
-npm run dev
+- cd pokedex-frontend
+- npm install
+- npm run dev
 
 Frontend fetches data from Laravel API.
 
